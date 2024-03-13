@@ -1,0 +1,25 @@
+{
+  "name": "quantumwallet",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@types/js-nacl": "^1.3.4",
+    "axios": "^1.6.7",
+    "bliss": "^1.0.1",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "ethers": "^6.11.1",
+    "express": "^4.18.3",
+    "js-nacl": "^1.4.0",
+    "sphincs-legacy": "^1.0.4",
+    "superfalcon": "^2.0.6",
+    "tweetnacl": "^1.0.3",
+    "xmss": "^0.0.11"
+  }
+}
