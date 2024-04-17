@@ -1,5 +1,6 @@
 PostQuantum-Crypto-Wallet
 GitHub - https://github.com/NigamAnanya/PostQuantum-Crypto-Wallet
+
 Demo Vedio - https://www.youtube.com/watch?v=V4BWTtBrJkY
 
 
@@ -15,6 +16,7 @@ With current computers, Public key can be generated from a Private key which is 
 This is like, i give you my Bank acc number and you can figure out my Bank acc password and steal money from it.
 
 Solution
+
 •	Add quantum safe cryptography to generate key-pair.
 •	Have a pessimistic sequencer to validate the signatures and send it to Ethereum.
 
