@@ -32,11 +32,17 @@ Solution
 Proposed Architecture
 
 •	The wallet is generated using superfalcon library which can generate key-pairs which are quantum resistant.
+
 •	For the demo, a dummy L2 chain is created where the state is account:balance and state transition function is just sending/receiving tokens.
+
 •	A transaction is signed by the quantum proof wallet and the state change is verified by a server (sequencer in this case).
+
 •	Once verified, the state root hash is updated and posted to Polygon or any other L1 of choice.
+
 •	Advantage is that since root hash is stored, the last state can always be recovered.
+
 Challenges I ran into
+
 •	Figuring out a key-pair generating package which worked took up a long time, and designing how to make it work with existing packages like ethers.
 
 •	Moreover proofs could be leveraged using ZK but shortage of time and resources couldnt let me explore that option
