@@ -2,7 +2,7 @@ PostQuantum-Crypto-Wallet
 
 GitHub - https://github.com/NigamAnanya/PostQuantum-Crypto-Wallet
 
-Demo Vedio - https://www.youtube.com/watch?v=V4BWTtBrJkY
+Demo Video - https://www.youtube.com/watch?v=V4BWTtBrJkY
 
 
 The problem Quantum Safe wallets with Pessimistic Sequencer solves
